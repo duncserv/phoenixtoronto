@@ -5,7 +5,6 @@
 .u-section-1 .u-blog-1 {
   margin-top: 60px;
   margin-bottom: 60px;
-  height: auto;
 }
 
 .u-section-1 .u-repeater-1 {
@@ -72,6 +71,10 @@
   .u-section-1 .u-sheet-1 {
     min-height: 526px;
   }
+
+  .u-section-1 .u-blog-1 {
+    height: auto;
+  }
 }
 
 @media (max-width: 991px) {
@@ -99,9 +102,14 @@
 }
 
 .u-section-2 .u-text-1 {
+  font-weight: 700;
+  margin: 181px auto 0;
+}
+
+.u-section-2 .u-text-2 {
   font-weight: 400;
   font-size: 1.5rem;
-  margin: 389px auto 60px;
+  margin: 181px auto 60px;
 }
 
 @media (max-width: 1199px) {
